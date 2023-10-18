@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>order</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="child">
+        1
+        <p>order: 0 (default)</p>
+      </div>
+      <div class="child focus-ele">2</div>
+      <div class="child order-10">
+        3
+        <p>order:10 </p>
+      </div>
+    </div>
+
+    <p>
+      <span>order</span> defines the order of the item in the container
+    </p>
+    <div class="controller">
+      <button onclick="changeProperty(0)">order : 0 (default)</button>
+      <button onclick="changeProperty(-1)">order : -1</button>
+      <button onclick="changeProperty(1)">order : 1</button>
+      <button onclick="changeProperty(11)">order : 11</button>
+    </div>
+    <script src="../main.js"></script>
+  </body>
+</html>

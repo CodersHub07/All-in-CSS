@@ -1,0 +1,34 @@
+:root{
+  --property: 0;
+}
+
+div.wrapper {
+  display: flex;
+  /* flex-direction: var(--property); */
+  align-items: start;
+  padding: 10px;
+  border: 1px solid #ff8a00;
+  border-radius: 15px;
+}
+
+div.child{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  padding: 10px;
+}
+
+div.child > p {
+  font-size: small;
+}
+
+.order-10{
+  order: 10;
+}
+
+.focus-ele{
+  background-color: red !important;
+  order: var(--property);
+}
