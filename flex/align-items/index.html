@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>align-items</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="child"></div>
+      <div class="child"></div>
+      <div class="child"></div>
+    </div>
+
+    <p>
+      <span>align-items</span> controls the alignment of the child elements in
+      the cross axis
+    </p>
+    <div class="controller">
+      <button onclick="changeProperty('stretch')">
+        align-items stretch (default)
+      </button>
+      <button onclick="changeProperty('flex-start')">
+        align-items flex-start
+      </button>
+      <button onclick="changeProperty('flex-end')">align-items flex-end</button>
+      <button onclick="changeProperty('center')">align-items center</button>
+      <button onclick="changeProperty('baseline')">align-items baseline</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

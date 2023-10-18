@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="child"></div>
+      <div class="child"></div>
+      <div class="child"></div>
+    </div>
+
+    <p> <span>justify-content</span> is used to place the child elements in the main axis of the flex direction (default: row)</p>
+    <div class="controller">
+      <button onclick="changeProperty('flex-start')">justify-content: flex-start (default)</button>
+      <button onclick="changeProperty('flex-end')">justify-content: flex-end</button>
+      <button onclick="changeProperty('center')">justify-content: center</button>
+      <button onclick="changeProperty('space-between')">justify-content: space-between</button>
+      <button onclick="changeProperty('space-around')">justify-content: space-around</button>
+      <button onclick="changeProperty('space-evenly')">justify-content: space-around</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
