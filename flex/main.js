@@ -1,5 +1,5 @@
-var r = document.querySelector(':root');
+var r = document.querySelector(":root");
 
-function changeProperty(value){
-  r.style.setProperty('--property', value);
+function changeProperty(value, property = "--property") {
+  r.style.setProperty(property, value);
 }

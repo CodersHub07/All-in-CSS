@@ -1,0 +1,21 @@
+:root{
+  --prev:flex-start;
+  --property: flex-start;
+}
+
+div.wrapper {
+  display: flex;
+  min-height:50vh;
+  flex-direction: var(--property);
+  align-items: start;
+  padding: 10px;
+  border: 1px solid #ff8a00;
+  border-radius: 15px;
+}
+
+div.child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
