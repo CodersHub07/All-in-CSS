@@ -45,3 +45,8 @@ button{
   background-color: #ff8a00;
   font-size: large;
 }
+
+button:hover{
+  background-color: #523717;
+  cursor: pointer;
+}
